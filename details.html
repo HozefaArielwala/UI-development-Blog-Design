@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Details Form</title>
+      <link rel="stylesheet" href="css/css2.css">
+   </head>
+<body>
+  <div class="container">
+    <div class="title">Registration</div>
+    <div class="content">
+      <form action="index.html">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Full Name</span>
+              <span id="full_name"></span>
+          </div>
+          <div class="input-box">
+            <span class="details">Username</span>
+              <span id="user_name"></span>
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <span id="email"></span>
+          </div>
+          <div class="input-box">
+            <span class="details">Phone Number</span>
+            <span id="tel"></span>
+          </div>
+          <div class="input-box">
+            <span class="details">Country</span>
+            <span id="country"></span>
+          </div>
+          <div class="input-box">
+            <span class="details">City</span>
+            <span id="city"></span>
+          </div>
+        </div>
+        <div class="button">
+          <input type="submit" onclick="index.html">
+        </div>
+      </form>
+    </div>
+    </div>
+<script>
+    document.getElementById("full_name").innerHTML=localStorage.getItem("textvalue1");
+    document.getElementById("user_name").innerHTML=localStorage.getItem("textvalue2");
+    document.getElementById("email").innerHTML=localStorage.getItem("textvalue3");
+    document.getElementById("tel").innerHTML=localStorage.getItem("textvalue4");
+    document.getElementById("country").innerHTML=localStorage.getItem("textvalue5");
+    document.getElementById("city").innerHTML=localStorage.getItem("textvalue6");
+    document.getElementById("gender").innerHTML=localStorage.getItem("gender");
+</script>
+</body>
