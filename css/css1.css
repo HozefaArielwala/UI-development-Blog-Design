@@ -1,0 +1,338 @@
+@media only screen and (min-width: 400px) and (max-width:1240px){
+    /* ****** Main Body CSS ***** */
+    body{
+        width:auto;
+        height:auto;
+
+    }
+    
+    /* ****** Title Bar CSS ***** */
+    
+    #sub-title{
+        display:flex;
+        flex-wrap: nowrap;
+        text-align: center;
+        line-height:1.5em;
+        justify-content: space-between;
+    }
+    #title{
+        font-size:1.4em;
+        padding-left:19%;
+        padding-right:19%;
+        
+    }
+    #subscribe{
+        font-size:1.1em;
+        padding-right:10px;
+    }
+    #subscribe>a{
+        text-decoration: none;
+        color:black;
+    }
+    #subscribe>a:hover{
+        background-color:lightcoral;
+        border-radius:25px;
+    }
+    #search{
+        font-size:1.1em;
+    }
+    #signup>a{
+        text-decoration: none;
+        color:black;
+    }
+    #signup>a:hover{
+        color:darkgray;
+    }
+    }
+    #search>span{
+        display:inline-block;
+        padding-left:10px;
+    }
+
+    /* ****** Horizontal Line effect ***** */
+
+    hr{
+        box-shadow: 0px 2px 2px #aaaaaa;
+    }
+
+    /* ******* Navigation Bar CSS **** */
+    
+    nav>div{
+        display:flex;
+        flex-wrap:nowrap;
+        justify-content: space-around;
+        padding:12px 0px 12px 0px;
+    }
+    nav>div>span>a{
+        text-decoration: none;
+        color:;
+    }
+    nav>div>span>a:hover{
+        color:burlywood;
+    }
+    
+    /* ******* Main Section CSS ***** */
+    #section1{
+        background-color: black;
+        color:white;
+    }
+    #section1>.sub-section{
+        display:flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
+    #section1>.sub-section1{
+        padding-left:15px;
+        padding-right:370px;
+    }
+    #section1>.sub-section1>div>h2{
+        font-size: 2.4em;
+    }
+    #section1>.sub-section1>div>p>a{
+        text-decoration: none;
+        color:white;
+    }
+    #section1>.sub-section1>div>p>a:hover{
+        text-decoration: none;
+        color:red;
+    }
+    #section1>.sub-section1>div>p>a:visited{
+        text-decoration: none;
+    }
+
+    /* ******* Thumbnail Section CSS ****** */
+
+    .thumbnail{
+        display:flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        margin-top:15px;
+        color:white;
+    }
+    .thumbnail>section>.sub-thumbnail{
+        display:flex;
+        flex-wrap: nowrap;
+        justify-content:space-around;
+        line-height:10px;
+        background-color: white;
+        color:black;
+        box-shadow:5px 1px 10px #aaaaaa;
+        width:auto;
+    }
+    .thumbnail>section>.sub-thumbnail1{
+        margin-right:20px;
+        padding-left:5px;
+    }
+    .thumbnail>section>.sub-thumbnail2{
+        padding-left:5px;
+        margin-bottom: 3px;
+    }
+    .thumbnail>section>div>.thumbnail1{
+        background-color:rgb(80,80,80);
+        color:gainsboro;
+        padding-left:15px;
+        padding-right:15px;  
+    }
+    .thumbnail>section>div>.thumbnail1>p{
+        text-align:center;
+        padding-top: 108%;
+        font-weight:lighter
+    }
+    .thumbnail>section>div>div>h5{
+        color:blue;
+        font-size:15px;
+        font-weight:bolder
+    }
+    .thumbnail>section>div>div>h3{
+        font-size: 1.5em;
+        line-height:0.4px;
+    }
+    .thumbnail>section>div>div>h6{
+        line-height: 0px;
+        padding-left:2px;
+        color:gray;
+        font-size:12px;
+        font-weight: bold;
+        margin-top:0px;
+    }
+    .thumbnail>section>.sub-thumbnail1>.div1>p{
+        line-height:13px;
+        margin:0px 1px 11px 0px;
+        font-weight:545;
+}
+    .thumbnail>#sub1>.sub-thumbnail2>.div2>p{
+        line-height:13px;
+        margin:0px 1px 11.1px 0px;
+        font-weight:545;
+    }
+    .thumbnail>section>div>div>p>a{
+        text-decoration: none;
+        color:blue;
+    }
+    .thumbnail>section>div>div>p>a:hover{
+        color:red;
+    }
+
+    /******* Article Part CSS ***** */
+
+    .main-article{
+        display:flex;
+        flex-wrap: nowrap;
+        margin-top:30px;
+        justify-content: space-around;
+    }
+    .sec1{
+        margin-right:5px;
+        padding-right:5px;
+    }
+    .sec2{
+        padding-left:40px;
+    }
+    .sec1>#headline{
+        font-size: 1.35em;
+        font-family:serif;
+        margin-bottom:8px;
+    }
+    .sec1>div>article>#h1{
+        margin-top:15px;
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+    .sec1>.first-article>.article1>h6{
+        margin-top:0px;
+        color:gray;
+        font-size:12px;
+        font-weight: bold;
+    }
+    .sec1>.first-article>.article1>h6>a{
+        text-decoration: none;
+        color:blue;
+    }
+    .color{
+        text-decoration: none;
+        color:blue;
+    }
+    .sec1>.first-article>.article2>h2{
+        font-size: 27px;
+        margin-bottom:0px;
+    }
+    
+    .sec1>.first-article>.article3>h3{
+        font-size: 21px;
+        margin-top:0px;
+        margin-bottom:0px;
+    }  
+    .sec1>.first-article>.article4>h4{
+        font-size: 19px;
+        margin-top: 0px;
+        margin-bottom:0px;
+    }
+    .sec1>.second-article>.article5>h2{
+        margin-bottom: 0px;
+        font-size: 30px;
+    }
+    .sec1>.second-article>.article5>h6{
+        margin-top:0px;
+        color:gray;
+        font-size:12px;
+        font-weight: bold;
+        padding-left: 2px;
+        margin-bottom: 5px;
+    }
+    .sec1>.third-article>.article6>h2{
+        margin-top: 30px;
+        margin-bottom: 0px;
+        font-size: 30px;
+    }
+    .sec1>.third-article>.article6>h6{
+        margin-top:0px;
+        color:gray;
+        font-size:12px;
+        font-weight: bold;
+        padding-left: 2px;
+        margin-bottom: 5px;
+    }
+
+    /* ****** Aside Part CSS ****** */
+
+        .sec2>aside>#about{
+        background-color:lightgray;
+        padding:5px 10px 5px 10px;
+        font-family: serif;
+    }
+    .sec2>aside>#about>h3{
+        font-size: 23px
+    }
+    .sec2>aside>#archives>h3{
+        font-size: 23px;
+        font-family:serif; 
+    }
+    #archives>ol{
+        list-style: none;
+        padding-left:0px;
+    }
+    .sec2>aside>#archives>ol>li{
+        color:blue;
+        padding-top:3px;
+    }
+    .sec2>aside>#archives>ol>li>a{
+        text-decoration: none;
+    }
+    .sec2>aside>#elsewhere>h3{
+        font-size: 23px;
+    }
+    .sec2>aside>#elsewhere>ol{
+        list-style: none;
+        padding-left:0px;
+    }
+    .sec2>aside>#elsewhere>ol>li{
+        color:blue;
+        padding-top:3px;
+    }
+    .sec2>aside>#elsewhere>ol>li>a{
+        text-decoration: none;
+    }
+
+    /* ******* Button part css ****** */
+.submit{
+    border-radius: 9px;
+    border-color: aqua;
+    background-color: white;
+}
+.submit>a{
+    color:blue;
+    text-decoration: none;
+}
+.button{
+    border-radius: 9px;
+    border-color: blue;
+    background-color: white;
+    color:blue;
+    margin:3px;
+}
+
+    /* ***** Footer part CSS **** */
+footer{
+    background-color: gainsboro;
+    text-align: center;
+    padding:10px;
+    color:dimgray;
+}
+footer>h4>a{
+    text-decoration: none;
+    color:blue;
+}
+footer>p>a{
+    text-decoration: none;
+    color:blue;
+}
+}
+
+
+
+
+
+
+
+
+
